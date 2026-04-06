@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes drawLine {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+html,
+body,
+#root {
+    height: 100% !important;
+}
+
+body {
+    @apply bg-gray-50 dark:bg-gray-950 !important;
+}
